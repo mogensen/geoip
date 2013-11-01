@@ -1,0 +1,7 @@
+plugin.tx_geoip_pi1 {
+	templateFile = EXT:geoip/res/template.html
+	
+	lib = /usr/share/GeoIP/GeoLiteCity.dat
+	ip = 
+	
+}

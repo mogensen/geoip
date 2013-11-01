@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_geoip_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="countryCode">Country Code</label>
+			<label index="countryName">Country Name</label>
+			<label index="region">Region</label>
+			<label index="city">City</label>
+			<label index="zip">ZIP</label>
+			<label index="lng">Longtitude</label>
+			<label index="lat">Latitude</label>
+			<label index="dmaCode">DMA Code</label>
+			<label index="areaCode">Area Code</label>
+			<label index="ip">IP</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="countryCode">Länderkürzel</label>
+			<label index="countryName">Ländername</label>
+			<label index="region">Region</label>
+			<label index="city">Stadt</label>
+			<label index="zip">PLZ</label>
+			<label index="lng">Längengrad</label>
+			<label index="lat">Breitengrad</label>
+			<label index="dmaCode">DMA Code</label>
+			<label index="areaCode">Area Code</label>
+			<label index="ip">IP</label>
+		</languageKey>
+
+	</data>
+	
+
+</T3locallang>
