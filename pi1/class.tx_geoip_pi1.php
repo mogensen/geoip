@@ -22,9 +22,6 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 
-require_once(PATH_tslib.'class.tslib_pibase.php');
-
-
 /**
  * Plugin 'IP based client information' for the 'geoip' extension.
  *
@@ -32,7 +29,7 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
  * @package	TYPO3
  * @subpackage	tx_geoip
  */
-class tx_geoip_pi1 extends tslib_pibase {
+class tx_geoip_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
 	var $prefixId      = 'tx_geoip_pi1';		// Same as class name
 	var $scriptRelPath = 'pi1/class.tx_geoip_pi1.php';	// Path to this script relative to the extension dir.
 	var $extKey        = 'geoip';	// The extension key.
